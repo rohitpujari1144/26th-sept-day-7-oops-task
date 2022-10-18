@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Write a “person” class to hold all the details
+
+        class personinfo
+            {
+                constructor(name, dob, age, nationality)
+                    {
+                        this.name = name;
+                        this.dob = dob;
+                        this.age = age;
+                        this.nationality = nationality;
+                    }
+            }
+
+        let person = new personinfo("Johny", 1990, 32, "Indian");
+
+        console.log(person);
+        console.log("Person name is "+person.name);
+        console.log("Person DOB is "+person.dob);
+        console.log("Person age is "+person.age);
+        console.log("Person nationality is "+person.nationality);
+    </script>
+</body>
+</html>
